@@ -3,11 +3,70 @@
     margin : 0;
 }
 
-p{
-    line-height: 50%;
+header{
+    text-align: justify;
+    font-size : 25px;
+    color : white;
+    text-shadow : 2px 2px 2px black;
 }
 
-header{
-    background-color: lightblue;
+header p{
+    width : 90%;
+    margin : auto;
+}
+
+#photo{
+    height : 200px;
+    width : 200px;
+    margin : auto;
+    border-radius: 100%;
+    background-image: url('../img/test.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.banniere{
+    height : 250px;
+    background-repeat: no-repeat;
+    background-image: url('../img/bannière.jpg');
+    border-bottom: 1px solid black;
+}
+
+.banniere1{
+    background-position: left top;
+}
+
+.banniere2{
+    background-position: center top;
+}
+
+.banniere3{
+    background-position: right top;
+}
+
+.center{
+    position: relative;
+    margin : auto;
+}
+
+.center1{
+    top : 10%;
+}
+
+.center2{
+    top : 20%;
+}
+
+.center2 p{
     text-align: center;
+    font-size : 30px;
+}
+
+.center3{
+    top : 10%;
+}
+
+.center4 h1{
+    
 }
