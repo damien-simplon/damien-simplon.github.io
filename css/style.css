@@ -20,7 +20,7 @@ header p{
     width : 200px;
     margin : auto;
     border-radius: 100%;
-    background-image: url('./img/test.png');
+    background-image: url('../img/test.png'); /* "./img/test.png" lors de l'upload sur github pages */
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -29,7 +29,7 @@ header p{
 .banniere{
     height : 250px;
     background-repeat: no-repeat;
-    background-image: url('./img/bannière.jpg');
+    background-image: url('../img/bannière.jpg');
     border-bottom: 1px solid black;
 }
 
