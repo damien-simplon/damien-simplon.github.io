@@ -64,7 +64,8 @@ header p{
 }
 
 .center3{
-    top : 30%;
+    top : 5%;
+    line-height : 80px;
     width : 100%;
     font-size : 0.7em;
 }
