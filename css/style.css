@@ -20,7 +20,7 @@ header p{
     width : 200px;
     margin : auto;
     border-radius: 100%;
-    background-image: url('../img/test.png'); /* "./img/test.png" lors de l'upload sur github pages */
+    background-image: url('../img/test.png');
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -51,11 +51,11 @@ header p{
 }
 
 .center1{
-    top : 10%;
+    top : 8%;
 }
 
 .center2{
-    margin-top : 20%;
+    margin-top : 25%;
 }
 
 .center2 p{
@@ -64,7 +64,8 @@ header p{
 }
 
 .center3{
-    top : 40%;
+    top : 50%;
+    font-size : 1em;
 }
 
 .center4 h1{
