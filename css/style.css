@@ -27,9 +27,9 @@ header p{
 }
 
 .banniere{
-    height : 250px;
     background-repeat: no-repeat;
     background-image: url('../img/bannière.jpg');
+    background-size: cover;
     border-bottom: 1px solid black;
 }
 
