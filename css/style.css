@@ -55,7 +55,7 @@ header p{
 }
 
 .center2{
-    margin-top : 25%;
+    margin-top : 10%;
 }
 
 .center2 p{
@@ -64,8 +64,9 @@ header p{
 }
 
 .center3{
-    top : 50%;
-    font-size : 1em;
+    top : 30%;
+    width : 100%;
+    font-size : 0.7em;
 }
 
 .center4 h1{
