@@ -5,7 +5,7 @@
 
 header{
     text-align: justify;
-    font-size : 25px;
+    font-size : 22px;
     color : white;
     text-shadow : 2px 2px 2px black;
 }
@@ -55,12 +55,12 @@ header p{
 }
 
 .center2{
-    margin-top : 10%;
+    margin-top : 5%;
 }
 
 .center2 p{
     text-align: center;
-    font-size : 30px;
+    font-size : 25px;
 }
 
 .center3{
@@ -108,4 +108,20 @@ header p{
 
 .formation{
     margin-top : 20px;
+}
+
+#projet p{
+    margin-top : 50px;
+}
+
+#interet h2{
+    margin-bottom : 100px;
+}
+
+#interet p{
+    font-size : 18px;
+}
+
+i{
+    color : lightgreen;
 }
