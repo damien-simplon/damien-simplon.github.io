@@ -3,7 +3,7 @@
     margin : 0;
 }
 
-header .banniere{
+.banniere{
     background-image: url("../img/bannièreMobile.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -11,16 +11,12 @@ header .banniere{
     margin : auto;
 }
 
-header .banniere #headerCoteGauche{
+#headerCoteGauche{
     display: table-cell;
     vertical-align: middle;
 }
 
-header .banniere #headerCoteDroit{
-    background-position: right;
-}
-
-header .banniere #headerCoteGauche #photo{
+#photo{
     display: block;
     margin-left: auto;
     margin-right : auto;
@@ -33,18 +29,40 @@ header .banniere #headerCoteGauche #photo{
     border-radius: 100%;
 }
 
-header .banniere #headerCoteGauche #intitule{
+#intitule{
     margin-top : 20px;
     text-align: center;
     color : white;
-    text-shadow: 3px 3px 3px black;
+    text-shadow: 0px 0px 10px black;
 }
 
-header .banniere #headerCoteGauche #intitule #prenomNom{
+#prenomNom{
     font-size : 50px;
     font-weight: bold;
 }
 
-header .banniere #headerCoteGauche #intitule #metier{
+#metier{
     font-size : 40px;
 }
+
+#headerCoteDroit{
+    background-position: right;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#blocInformation{
+    font-size : 40px;
+    text-align: justify;
+    width : 70%;
+    margin : auto;
+    line-height: 100px;
+    color : white;
+    text-shadow: 0px 0px 10px black;
+}
+/*
+.section{
+    display: table-cell;
+    vertical-align: middle;
+    width : 100%;
+}*/

@@ -1,15 +1,19 @@
 window.onload = function(){
-    var headerBanniere = document.getElementsByClassName("banniere");
+    var sections = document.getElementsByClassName("section");
     var headerCoteGauche = document.getElementById("headerCoteGauche");
+    var headerCoteDroit = document.getElementById("headerCoteDroit");
 
     var taille = window.innerHeight;
     var tailleLargeur = window.innerWidth;
 
     if(tailleLargeur < 769){
-        for(let item of headerBanniere){
+        for(let item of sections){
             item.style.height = taille + "px";
         }
         headerCoteGauche.style.height = taille + "px";
         headerCoteGauche.style.width = tailleLargeur + "px";
+
+        headerCoteDroit.style.height = taille + "px";
+        headerCoteDroit.style.width = tailleLargeur + "px";
     }
 }
