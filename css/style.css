@@ -7,22 +7,44 @@ header .banniere{
     background-image: url("../img/bannièreMobile.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-}
-
-header #headerCoteGauche{
     background-position: left;
+    margin : auto;
 }
 
-header #headerCoteDroit{
+header .banniere #headerCoteGauche{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+header .banniere #headerCoteDroit{
     background-position: right;
 }
 
-header #photo{
-    height : 150px;
-    width : 150px;
+header .banniere #headerCoteGauche #photo{
+    display: block;
+    margin-left: auto;
+    margin-right : auto;
+    height : 200px;
+    width : 200px;
     background-image: url('../img/photo.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     border-radius: 100%;
+}
+
+header .banniere #headerCoteGauche #intitule{
+    margin-top : 20px;
+    text-align: center;
+    color : white;
+    text-shadow: 3px 3px 3px black;
+}
+
+header .banniere #headerCoteGauche #intitule #prenomNom{
+    font-size : 50px;
+    font-weight: bold;
+}
+
+header .banniere #headerCoteGauche #intitule #metier{
+    font-size : 40px;
 }
