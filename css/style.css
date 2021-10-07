@@ -3,6 +3,11 @@
     margin : 0;
 }
 
+i{
+    color : lightgreen;
+    margin-right : 5px;
+}
+
 .banniere{
     background-image: url("../img/bannièreMobile.jpg");
     background-repeat: no-repeat;
@@ -37,12 +42,12 @@
 }
 
 #prenomNom{
-    font-size : 50px;
+    font-size : 2.5em;
     font-weight: bold;
 }
 
 #metier{
-    font-size : 40px;
+    font-size : 2em;
 }
 
 #headerCoteDroit{
@@ -52,17 +57,132 @@
 }
 
 #blocInformation{
-    font-size : 40px;
+    font-size : 1em;
+    font-weight: bold;
     text-align: justify;
     width : 70%;
     margin : auto;
+    text-align: center;
     line-height: 100px;
     color : white;
     text-shadow: 0px 0px 10px black;
 }
-/*
-.section{
-    display: table-cell;
-    vertical-align: middle;
+
+h2{
+    text-decoration: underline;
+    text-align : center;
+    margin-bottom : 20px;
+}
+
+h3{
+    text-decoration : underline;
+    text-align : left;
+    margin-bottom : 15px;
+}
+
+.paragraphe{
+    display: flex;
+    border-bottom: 1px solid black;
+}
+
+.paragraphe:last-of-type{
+    border-bottom : unset;
+}
+
+.in{
+    width : 80%;
+    margin : auto;
+}
+
+#aPropos p{
+    text-align : justify;
+    line-height: 25px;
+    font-size : 1.2em;
+}
+
+#competence p{
+    margin-bottom : 15px;
+}
+
+#formation .formation{
+    margin-top : 10px;
+    padding-bottom : 10px;
+    border-bottom : 1px solid black;
+    text-align : center;
+}
+
+#formation .formation:last-of-type{
+    border-bottom : unset;
+}
+
+#formation .formation h3{
+    text-align : center;
+    margin : unset;
+}
+
+#projet .projet{
+    margin-top : 10px;
+    padding-bottom : 20px;
+    text-align : justify;
+}
+
+#projet .projet a{
+    background-color :lightgreen;
+    color : black;
+    display: block;
+    height : 50px;
+    line-height : 50px;
+    margin-left : auto;
+    margin-right : auto;
+    text-align: center;
+    width : 70%;
+    margin-top : 10px;
+    border : 1px solid black;
+}
+
+#interet{
+    line-height: 30px;
+}
+
+#interetGrid{
+    display: grid;
+    height : 100%;
     width : 100%;
-}*/
+    margin : auto;
+    grid-template-columns: 50% 50%; 
+    grid-template-rows: 50% 50%; 
+    gap: 0px 0px; 
+    grid-template-areas: 
+      "one two"
+      "three four";
+      text-align: left;
+}
+
+#interetGrid i{
+    color : black;
+}
+
+.one{
+    grid-area: one;
+    margin:auto;
+    border-left : 1px solid lightgreen;
+    border-top : 1px solid lightgreen;
+    border-right : 1px solid lightgreen;
+}
+
+.two{
+    grid-area: two;
+    display: block;
+    margin:auto;
+    border-bottom : 1px solid lightgreen;
+    border-top : 1px solid lightgreen;
+    border-right : 1px solid lightgreen;
+}
+
+.three{
+    grid-area: three;
+}
+
+.four{
+    grid-area: four;
+}
