@@ -153,9 +153,9 @@ h3{
     grid-template-rows: 50% 50%; 
     gap: 0px 0px; 
     grid-template-areas: 
-      "one two"
-      "three four";
-      text-align: left;
+      "un deux"
+      "trois quatre";
+    text-align: left;
 }
 
 .interetGridCase{
@@ -168,20 +168,20 @@ h3{
     color : lightgreen;
 }
 
-.one{
-    grid-area: one;
+.un{
+    grid-area: un;
 }
 
-.two{
-    grid-area: two;
+.deux{
+    grid-area: deux;
 }
 
-.three{
-    grid-area: three;
+.trois{
+    grid-area: trois;
 }
 
-.four{
-    grid-area: four;
+.quatre{
+    grid-area: quatre;
 }
 
 @media screen and (min-width: 769px){
@@ -209,17 +209,77 @@ h3{
         margin-bottom : auto;
     }
 
+    #prenomNom p{
+        font-size : 1.8em;
+        text-align : left;
+    }
+
     #headerCoteDroit{
         position : absolute;
         top : 0;
         right : 0;
         width : 400px;
         margin-top : 4%;
+        font-size : 1.2em;
     }
 
     #headerCoteDroit p{
         line-height: 50px;
         text-align : left;
+    }
+
+    h2{
+        text-align: left;
+        margin-top : 50px;
+        font-size : 2.5em;
+    }
+
+    h3{
+        font-size : 1.8em;
+    }
+
+    #contenu p{
+        font-size:1.5em;
+    }
+
+    .section{
+        border : unset;
+    }
+
+    #contenu{
+        display: grid;
+        grid-template-columns: 50% 50%; 
+        grid-template-rows: 50% 50%; 
+        gap: 0px 0px; 
+        grid-template-areas: 
+            "one"
+            "two three"
+            "four five";
+        margin-bottom : 50px;
+    }
+
+    .one{
+        grid-area: one;
+    }
+
+    .two{
+        grid-area: two;
+    }
+
+    .three{
+        grid-area: three;
+    }
+    
+    .four{
+        grid-area: four;
+    }
+
+    .five{
+        grid-area: five;
+    }
+
+    .in{
+        margin-top: 0;
     }
 
 }

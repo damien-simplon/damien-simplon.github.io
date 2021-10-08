@@ -4,8 +4,6 @@ window.onload = function(){
     var headerCoteDroit = document.getElementById("headerCoteDroit");
     var interetGrid = document.getElementById("interetGrid");
 
-    var header = document.getElementsByTagName("header");
-
     var taille = window.innerHeight;
     var tailleLargeur = window.innerWidth;
 
