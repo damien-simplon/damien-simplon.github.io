@@ -183,3 +183,43 @@ h3{
 .four{
     grid-area: four;
 }
+
+@media screen and (min-width: 769px){
+    
+    .banniere{
+        background-image: unset;
+    }
+
+    header{
+        background-image: url('../img/bannière.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    #headerCoteGauche{
+        display : flex;
+    }
+
+    #cadrePhoto{
+        margin : 5%;
+    }
+
+    #intitule{
+        margin-top : auto;
+        margin-bottom : auto;
+    }
+
+    #headerCoteDroit{
+        position : absolute;
+        top : 0;
+        right : 0;
+        width : 400px;
+        margin-top : 4%;
+    }
+
+    #headerCoteDroit p{
+        line-height: 50px;
+        text-align : left;
+    }
+
+}
