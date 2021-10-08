@@ -158,25 +158,22 @@ h3{
       text-align: left;
 }
 
+.interetGridCase{
+    margin : auto;
+    margin-left : 5px;
+    margin-right : 5px;
+}
+
 #interetGrid i{
-    color : black;
+    color : lightgreen;
 }
 
 .one{
     grid-area: one;
-    margin:auto;
-    border-left : 1px solid lightgreen;
-    border-top : 1px solid lightgreen;
-    border-right : 1px solid lightgreen;
 }
 
 .two{
     grid-area: two;
-    display: block;
-    margin:auto;
-    border-bottom : 1px solid lightgreen;
-    border-top : 1px solid lightgreen;
-    border-right : 1px solid lightgreen;
 }
 
 .three{
