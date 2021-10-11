@@ -190,6 +190,22 @@ h3{
     grid-area: quatre;
 }
 
+#boutonDarkMode{
+    position : fixed;
+    bottom : 1%;
+    right : 1%;
+    height : 50px;
+    width : 50px;
+    border-radius : 100%;
+    border : 1px solid black;
+}
+
+#boutonDarkMode i{
+    color : black;
+    font-size : 50px;
+    margin-left:4px;
+}
+
 @media screen and (min-width: 769px){
     
     .banniere{
