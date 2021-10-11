@@ -329,10 +329,24 @@ h3{
     .formation h3{
         text-align : unset;
         text-align : left;
+        font-size : 1.5em;
     }
 
-    .formation p{
+    #formation .formation p{
         text-align : left;
+        font-size : 1.5em;
+    }
+
+    #projet .projet h3{
+        font-size : 2em;
+    }
+
+    #projet .projet h4{
+        font-size : 1.5em;
+    }
+
+    #projet .projet p{
+        font-size : 1.7em;
     }
 
     #projet .projet a{
