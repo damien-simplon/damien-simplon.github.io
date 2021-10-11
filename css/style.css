@@ -9,7 +9,7 @@ i{
 }
 
 .banniere{
-    background-image: url("../img/bannièreMobile.jpg");
+    background-image: url("../img/bannièreMobile.webp");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: left;
@@ -27,7 +27,7 @@ i{
     margin-right : auto;
     height : 200px;
     width : 200px;
-    background-image: url('../img/photo.jpg');
+    background-image: url('../img/photo.webp');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
