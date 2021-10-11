@@ -116,14 +116,18 @@ h3{
     border-bottom : unset;
 }
 
-.formation h3{
+.formation h2{
     font-size : 1em;
+}
+
+.formation h3{
+    font-size : 0.9em;
     text-align : center;
     margin : unset;
 }
 
 .formation p{
-    font-size : 1em;
+    font-size : 0.9em;
 }
 
 #projet .projet{
