@@ -133,12 +133,16 @@ h3{
     font-size : 1em;
 }
 
+#projet .projet h4{
+    margin-bottom : unset;
+}
+
 #projet .projet a{
     background-color :lightgreen;
     color : black;
     display: block;
-    height : 50px;
-    line-height : 50px;
+    height : 30px;
+    line-height : 30px;
     margin-left : auto;
     margin-right : auto;
     text-align: center;
