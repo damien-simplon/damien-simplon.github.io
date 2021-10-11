@@ -132,13 +132,14 @@ h3{
 
 #projet .projet{
     margin-top : 10px;
-    padding-bottom : 20px;
+    padding-bottom : 10px;
     text-align : justify;
     font-size : 0.9em;
 }
 
 #projet .projet h3{
     font-size : 0.9em;
+    margin-bottom : 5px;
 }
 
 #projet .projet a{
@@ -158,6 +159,7 @@ h3{
 
 #projet h4{
     margin-top : 0;
+    margin-bottom : 10px;
     font-size : 1em;
 }
 
