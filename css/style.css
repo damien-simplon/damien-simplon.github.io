@@ -109,6 +109,7 @@ h3{
     padding-bottom : 10px;
     border-bottom : 1px solid black;
     text-align : center;
+    font-size : 1em;
 }
 
 #formation .formation:last-of-type{
@@ -116,14 +117,20 @@ h3{
 }
 
 .formation h3{
+    font-size : 1em;
     text-align : center;
     margin : unset;
+}
+
+.formation p{
+    font-size : 1em;
 }
 
 #projet .projet{
     margin-top : 10px;
     padding-bottom : 20px;
     text-align : justify;
+    font-size : 1em;
 }
 
 #projet .projet a{
@@ -138,6 +145,7 @@ h3{
     width : 70%;
     margin-top : 10px;
     border : 1px solid black;
+    font-size : 1em;
 }
 
 #projet h4{
