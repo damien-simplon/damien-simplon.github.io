@@ -8,6 +8,16 @@ i{
     margin-right : 5px;
 }
 
+.dark{
+    background-color: rgb(79, 78, 78);
+    color : white;
+}
+
+.white{
+    background-color: white;
+    color : black;
+}
+
 .banniere{
     background-image: url("../img/bannièreMobile.webp");
     background-repeat: no-repeat;

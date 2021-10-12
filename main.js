@@ -26,17 +26,17 @@ window.onload = function(){
     var boutonI = bouton.getElementsByTagName("i");
     bouton.onclick = function(){
         for(let item of contenu){
-            if(item.style.backgroundColor == "rgb(79, 78, 78)"){
-                item.style.backgroundColor = "white";
-                item.style.color = "black";
+            if(item.classList.contains("dark")){
+                item.classList.remove("dark");
+                item.classList.add("white");
                 bouton.style.border = "1px solid black";
                 for(let item of boutonI){
                     item.style.color = "black";
                 }
             }
             else{
-                item.style.backgroundColor = "rgb(79, 78, 78)";
-                item.style.color = "white";
+                item.classList.remove("white");
+                item.classList.add("dark");
                 bouton.style.border = "1px solid white";
                 for(let item of boutonI){
                     item.style.color = "white";
